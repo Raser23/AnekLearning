@@ -1,0 +1,1 @@
+web: python bot.py ; python3 train.py --data_dir data/aneks --model rnn --num_epochs 1
