@@ -11,6 +11,7 @@ from utils import TextLoader
 from model import Model
 
 def f ():
+    print("starting server")
     import bot
     pass
 
