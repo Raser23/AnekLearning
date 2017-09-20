@@ -10,7 +10,15 @@ from six.moves import cPickle
 from utils import TextLoader
 from model import Model
 
+def f ():
+    import bot
+    pass
+
 def main():
+    import threading
+    t1 = threading.Thread(target=f)
+    t1.start()
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', type=str, default='data/tinyshakespeare',
                        help='data directory containing input.txt')
