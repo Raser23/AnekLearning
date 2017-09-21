@@ -60,7 +60,7 @@ def main():
                             'model.ckpt-*'      : file(s) with model definition (created by tf)
                         """)
     args = parser.parse_args()
-    train(args)
+    #train(args)
 
 def train(args):
     data_loader = TextLoader(args.data_dir, args.batch_size, args.seq_length, args.input_encoding)
