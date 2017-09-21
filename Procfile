@@ -1,1 +1,1 @@
-web: python train.py --data_dir data/aneks --model rnn --num_epochs 200 --init_from save
+web: python train.py --data_dir data/aneks --model rnn --num_epochs 200 --init_from save\
