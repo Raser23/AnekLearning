@@ -1,1 +1,1 @@
-web: python train.py --data_dir data/aneks --model rnn --num_epochs 200 --init_from save\
+web: python sample.py --pick 2 --width 2 --save_dir save\
